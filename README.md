@@ -26,10 +26,3 @@ All tasks are saved using **LocalStorage**, so your data remains even after refr
 
 ---
 
-## 📂 Project Structure
-To-Do-List/
-│
-├── index.html # Main UI
-├── styles.css # App styling
-├── script.js # Task handling logic
-└── README.md
