@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-DO List</title>
+    <link rel="stylesheet" href="Stylesq.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
+</head>
+<body>
+    <div class="Container">
+        <div class="app-header">
+            <h1 id="header">TO-DO List<img  class="logo" src="./assets/notebook-svgrepo-com.svg"></h1>
+
+        </div>
+        <div class="task-div" id="task-div">
+                <!-- Tasks will be dynamically added here -->
+            <div class="input-section">
+                <input type="text" id="task-input" class="input-section" placeholder="Add a new task..." >
+                <button id="add-task-button">+</button>
+            </div>    
+            <ul id="task-list" class="task-list">
+                <!-- Task items will appear here -->
+
+            </ul>    
+
+        </div>        
+    </div>
+
+    
+
+   
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
